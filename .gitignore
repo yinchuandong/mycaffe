@@ -1,0 +1,5 @@
+.ropenproject
+data
+*.txt
+.idea
+*sublime-*
