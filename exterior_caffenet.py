@@ -3,7 +3,7 @@ import caffe
 
 caffe_root = '/home/john/caffe/'
 model_def = caffe_root + 'examples/myimagenet/deploy.prototxt'
-model_weights = caffe_root + 'examples/myimagenet/caffenet_train_iter_33000.caffemodel'
+model_weights = caffe_root + 'examples/myimagenet/caffenet_train_iter_25000.caffemodel'
 caffe.set_device(0)
 caffe.set_mode_gpu()
 
